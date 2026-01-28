@@ -4,19 +4,19 @@
 # If you are reading this message it means you are part of a project and you have started collaborating on github.
 # The assignment below is important to ensure you understand the basics and the big picture of collaborating with other developers.
 
-#################################
-#################################
+#############################################################
+#############################################################
 
 # Assignment 
 
-#################################
-#################################
+#############################################################
+#############################################################
 
 # 1. Clone this repository to your local using the command git clone git@github.com:Technopaedia/full-stack-app.git
 
 # For this to be successful you need to set up an SSH Key on your Github Account, you can use the following commands/instructions to set it up
 
-#   ssh-keygen -t rsa -b 4096 -C "<The email address of your github account>"
+#   ssh-keygen -t rsa -b 4096 -C "The email address of your github account"
 #   cat ~/.ssh/id_rsa.pub
 #   copy the output and paste it in your gihub account[]
 ![alt text](image.png)
