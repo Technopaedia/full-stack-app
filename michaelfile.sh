@@ -16,6 +16,6 @@ echo "i will get my first devops job $year"
 
 echo "so $focus"
 
-
+echo "debug: quick"
 
 #just a simple bash scrips 
