@@ -5,10 +5,10 @@ no:
   pull_reqests:        
     branches: [ main ]
 jobs:
-    Dami:
-        run-on: ubnntu-latest
-        steps:
-          - name: mention my name
-            run: echo "my name is Damilola" 
+  Dami:
+    run-on: ubuntu-latest
+    steps:
+      - name: mention my name
+        run: echo "my name is Damilola" 
         
 
