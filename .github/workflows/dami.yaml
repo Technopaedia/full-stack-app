@@ -6,7 +6,7 @@ on:
     branches: [ main ] 
 jobs:
   Dami:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Damilola
         run: echo "my name is Damilola" 
