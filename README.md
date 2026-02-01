@@ -39,3 +39,5 @@
 #    c) PUSH YOUR CHANGES TO THE YOUR BRANCH IN THE REMOTE #REPOSITIRY (IT DOESNT EXIST YET ON THE REMOTE REPOSITORY, SO YOU NEED TO FIND THE COMMAND THAT WILL MAKE IT EXIST WHEN YOU PUSH YOUR CHANGES)
 
 # 4. Create a Pull request so that your changes can be added to the main branch(Do this when your changes reflect on the remote repository)
+
+# Doing my part 
