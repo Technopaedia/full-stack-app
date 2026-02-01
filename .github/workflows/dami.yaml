@@ -1,0 +1,14 @@
+name: run hello my name scripts
+no:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+    Dami:
+        run-on: ubnntu-latest
+        steps:
+          -name: mention my name
+           run: echo "my name is Damilola" 
+        
+
