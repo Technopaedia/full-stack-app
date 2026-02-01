@@ -1,0 +1,12 @@
+name: Run Hello World Scripts
+on:
+  push:
+    branches: [ main ]
+  pull_requests:
+    branches: [ main ]
+jobs:
+  greet:
+    runs-on: ububtu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello World"
