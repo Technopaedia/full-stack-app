@@ -1,5 +1,5 @@
 name: run hello my name scripts
-no:
+on:
   push:
     branches: [ main ]
   pull_reqest:        
