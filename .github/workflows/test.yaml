@@ -10,3 +10,13 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello World"
+  run_script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - name: Run Hello World Script
+        run:  bash sample-scripts.sh
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v8
+  
