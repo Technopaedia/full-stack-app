@@ -1,14 +1,21 @@
 name: run hello my name scripts
 no:
+  workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: 
+      - main
+      - dami-actions
+   
+
   pull_reqests:        
-    branches: [ main ]
+    branches: 
+      - main
+
 jobs:
   Dami:
     run-on: ubuntu-latest
     steps:
-      - name: mention my name
+      - name: Damilola
         run: echo "my name is Damilola" 
         
 
