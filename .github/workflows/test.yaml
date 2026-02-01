@@ -16,5 +16,5 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
       - name: Run Hello World Script
-        run: bash sample-scrit.sh
+        run: bash sample-scripts.sh
   
