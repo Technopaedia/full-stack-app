@@ -1,0 +1,19 @@
+name: you are welcome
+on:
+  
+  push:
+    branches:
+      - main
+      - mike-actions
+
+  pull_request:
+    branches:
+      - main
+      - mike-actions
+
+jobs:
+  welcome:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: michael
+        run: echo "you are welome michael"
