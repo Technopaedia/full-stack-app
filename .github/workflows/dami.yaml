@@ -10,6 +10,7 @@ no:
   pull_reqests:        
     branches: 
       - main
+      - dami-actions  
 
 jobs:
   Dami:
