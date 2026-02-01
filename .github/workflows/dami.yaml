@@ -2,7 +2,7 @@ name: run hello my name scripts
 no:
   push:
     branches: [ main ]
-  pull_reqests:        
+  pull_reqest:        
     branches: [ main ] 
 jobs:
   Dami:
