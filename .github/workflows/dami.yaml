@@ -1,4 +1,4 @@
-name: run hello my name scripts
+name: mention my name scripts
 on:
   push:
     branches: [ main ]
