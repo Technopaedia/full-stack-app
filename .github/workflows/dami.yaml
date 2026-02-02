@@ -1,11 +1,11 @@
-name: mention my name scripts
+name: Run mention my name scripts
 on:
   push:
     branches: [ main ]
   pull_request:        
     branches: [ main ] 
 jobs:
-  Dami:
+  dami:
     runs-on: ubuntu-latest
     steps:
       - name: Damilola
