@@ -1,0 +1,21 @@
+name: you are welcome
+on:
+
+  push:
+    branches:
+      - main
+      - mike-actions
+
+  pull_request:
+    branches:
+      - main
+      - mike-actions
+
+jobs:
+  welcome:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: tegstech
+        run: echo "you are welome to OT's corner"
+
+          
