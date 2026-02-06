@@ -1,6 +1,6 @@
-Name: Run Thank you for Coming Script
-On:
-  Push:
+name: mention my name scripts
+on:
+  push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
