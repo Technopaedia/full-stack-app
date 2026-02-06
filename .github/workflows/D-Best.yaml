@@ -1,0 +1,8 @@
+Name: Run Thank you for Coming Script
+On: Push
+Jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      name: Say Greetings
+      run: echo "thank you for coming"
