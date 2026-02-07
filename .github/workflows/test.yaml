@@ -13,14 +13,10 @@ jobs:
   run_script:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
-      - name: Run Script
-        run: bash sample-scripts.sh
       - name: Checkout Repository
         uses: actions/checkout@v2
       - name: Run Hello World Script
-        run: bash sample-scripts.sh
+        run:  bash sample-scripts.sh
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v8
   
