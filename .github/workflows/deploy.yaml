@@ -1,4 +1,4 @@
-name: Deploy static site to Pages
+name: Deploy static site to Github Pages
 
 on:
   push:
@@ -35,3 +35,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+  
