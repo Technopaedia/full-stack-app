@@ -41,4 +41,4 @@ jobs:
       - name: Show my secrets
         env:
           MY_SECRET: ${{ secrets.MY_SECRET }}
-        run: echo "$MY_SECRET"
+        run: echo "This is my $MY_SECRET"
