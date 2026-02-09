@@ -1,14 +1,13 @@
-name: run hello my name scripts
-no:
+name: mention my name scripts
+on:
   push:
     branches: [ main ]
-  pull_reqests:        
-    branches: [ main ]
+  pull_request:        
+    branches: [ main ] 
 jobs:
-    Dami:
-        run-on: ubnntu-latest
-        steps:
-          - name: mention my name
-            run: echo "my name is Damilola" 
+  dami:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Damilola
+        run: echo "my name is Damilola" 
         
-
