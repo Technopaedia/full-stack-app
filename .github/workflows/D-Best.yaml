@@ -1,0 +1,12 @@
+name: mention my name scripts
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+Jobs:
+  best:
+    runs-on: ubuntu-latest
+    steps:
+      name: Say Greetings
+      run: echo "thank you for coming"
